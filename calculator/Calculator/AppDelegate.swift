@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  calculator
+//  Calculator
 //
-//  Created by Mitchell Tieleman on 08/02/15.
-//  Copyright (c) 2015 Mitchell Tieleman. All rights reserved.
+//  Created by Martin Mandl on 26.01.15.
+//  Copyright (c) 2015 m2m server software gmbh. All rights reserved.
 //
 
 import UIKit
