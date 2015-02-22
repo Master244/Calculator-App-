@@ -1,4 +1,4 @@
-Ghost Word Game 
+<h1>Ghost Word Game<h1> 
 
 I started this project for the Stanford CS193P IOS Swift Course. The assignment is to build the game Ghost. 
 
