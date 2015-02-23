@@ -22,4 +22,4 @@ Iphone 4/4S Design
 Designing for iOS
 The designs can be found in the doc directory
 
-![Alt text](/path/to/0.jpg)
+![Alt text](https://github.com/Master244/Calculator-App-/blob/master/doc/0.jpg?raw=true)
