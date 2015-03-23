@@ -101,23 +101,17 @@
 		157C22D11ABE53030023057A /* Ghost */ = {
 			isa = PBXGroup;
 			children = (
-				15F57DCD1ABF146600F73201 /* engels.lst */,
-				15F57DCF1ABF296000F73201 /* nederlands.lst */,
 				157C22D41ABE53030023057A /* AppDelegate.swift */,
 				157C22D91ABE53030023057A /* ViewController.swift */,
+				15FEB74D1AC0D7C4001C0018 /* UserFiles */,
+				15FEB74C1AC0D782001C0018 /* DictFiles */,
+				15FEB74B1AC0D753001C0018 /* GameFiles */,
+				15F57DCD1ABF146600F73201 /* engels.lst */,
+				15F57DCF1ABF296000F73201 /* nederlands.lst */,
 				157C22DB1ABE53030023057A /* Main.storyboard */,
-				15D3F3DE1ABF5FD6000CC6A6 /* FinishedGameController.swift */,
-				15D3F3D61ABF417B000CC6A6 /* PlayCheckController.swift */,
-				157C22FF1ABE54890023057A /* HighScoreTableViewController.swift */,
-				15F57DCB1ABEF72500F73201 /* SettingsViewController.swift */,
-				157C22DE1ABE53030023057A /* Images.xcassets */,
 				157C22E01ABE53030023057A /* LaunchScreen.xib */,
+				157C22DE1ABE53030023057A /* Images.xcassets */,
 				157C22D61ABE53030023057A /* Ghost.xcdatamodeld */,
-				157C22FB1ABE53420023057A /* Users.swift */,
-				157C22F91ABE53420023057A /* Dutch.swift */,
-				157C22F71ABE53410023057A /* English.swift */,
-				15D3F3DC1ABF4F02000CC6A6 /* Game.swift */,
-				15D3F3DA1ABF4D71000CC6A6 /* GameController.swift */,
 				157C22D21ABE53030023057A /* Supporting Files */,
 			);
 			path = Ghost;
@@ -146,6 +140,36 @@
 				157C22EC1ABE53030023057A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		15FEB74B1AC0D753001C0018 /* GameFiles */ = {
+			isa = PBXGroup;
+			children = (
+				15D3F3D61ABF417B000CC6A6 /* PlayCheckController.swift */,
+				15D3F3DE1ABF5FD6000CC6A6 /* FinishedGameController.swift */,
+				15D3F3DA1ABF4D71000CC6A6 /* GameController.swift */,
+				15D3F3DC1ABF4F02000CC6A6 /* Game.swift */,
+			);
+			name = GameFiles;
+			sourceTree = "<group>";
+		};
+		15FEB74C1AC0D782001C0018 /* DictFiles */ = {
+			isa = PBXGroup;
+			children = (
+				157C22F91ABE53420023057A /* Dutch.swift */,
+				157C22F71ABE53410023057A /* English.swift */,
+			);
+			name = DictFiles;
+			sourceTree = "<group>";
+		};
+		15FEB74D1AC0D7C4001C0018 /* UserFiles */ = {
+			isa = PBXGroup;
+			children = (
+				15F57DCB1ABEF72500F73201 /* SettingsViewController.swift */,
+				157C22FB1ABE53420023057A /* Users.swift */,
+				157C22FF1ABE54890023057A /* HighScoreTableViewController.swift */,
+			);
+			name = UserFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
