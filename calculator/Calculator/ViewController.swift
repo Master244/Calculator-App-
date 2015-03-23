@@ -131,7 +131,9 @@ class ViewController: UIViewController
                 display.text = numberFormatter.stringFromNumber(newValue!)
             } else {
                 display.text = " "
+                @IBOutlet weak var button: UIButton!
             }
+            @IBOutlet weak var button: UIButton!
             userIsInTheMiddleOfTypingANumber = false
             history.text = brain.description != "" ? brain.description + " =" : ""
         }

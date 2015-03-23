@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6254" systemVersion="14C109" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Dutch" representedClassName="Ghost.Dutch" syncable="YES">
+        <attribute name="word" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="English" representedClassName="Ghost.English" syncable="YES">
+        <attribute name="word" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Users" representedClassName="Ghost.Users" syncable="YES">
+        <attribute name="player" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="score" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Dutch" positionX="-54" positionY="-9" width="128" height="60"/>
+        <element name="English" positionX="-63" positionY="-18" width="128" height="60"/>
+        <element name="Users" positionX="-36" positionY="9" width="128" height="73"/>
+    </elements>
+</model>
