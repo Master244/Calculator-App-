@@ -89,7 +89,7 @@ An Override function that hides the keyboard when a touch is recorded outside of
 <p>1.</p>
 Brings you back to the homeScreen and clears the currentUsers so you have to set them from the settings again. 
 
-<p>w.</p>
+<p>2.</p>
 Restart the match with the same settings. 
 
 ![Alt text](https://github.com/Master244/Calculator-App-/blob/master/doc/FinishedGameController.png?raw=true)
