@@ -34,7 +34,7 @@ The designs can be found in the doc directory
 <h1>Design Decisions:</h1>
 
 <h2>NSManagedObjectContext</h2>
-Most knowledge about this subject I learned through http://jamesonquave.com/blog/core-data-in-swift-tutorial-part-1/ . Initially following this easy tutorial helped me understand how the NSPersistentStoreCoordinator and CoreData worked. 
+Usefull readings on this subject: http://www.techotopia.com/index.php/An_iOS_8_Swift_Core_Data_Tutorial , http://jamesonquave.com/blog/core-data-in-swift-tutorial-part-1/ ,http://www.raywenderlich.com/77974/making-a-gesture-driven-to-do-list-app-like-clear-in-swift-part-1. Initially following this easy tutorial helped me understand how the NSPersistentStoreCoordinator and CoreData worked. 
 
 If you look at the image below you can see the NSPersistentStoreCoordinator centered between storage modules and controllers that want to acces these modules. The name alone makes it quite scary to try and understand what it does. I called him my Indian Trader. 
 
