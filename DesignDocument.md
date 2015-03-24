@@ -54,7 +54,7 @@ This is the initial controller fired up at the start. The Play button checks if 
 
 <h3>SettingsViewController</h3>
 <p>1.</p>
-This is where a big part of the magic happens. First of all the managedObjectContext is declared to create a context where objects like users and the selected dictionairy can be neatly arranged for our Indian Trader to pick up. 
+This is where a big part of the magic happens. First of all the managedObjectContext is declared to create a context where objects like users and the selected dictionairy can be neatly arranged for our Indian Trader to pick up. Secondly calling the context like this makes it able to use it anywhere in the viewcontroller to arrange and wrap up our packages.
 
 <p>2.</p>
 This function checks if the fields are properly filled before it undertakes any action like checking any data. If all constraints are met the function will push the names from the TextFields to the Database configured for the Entity "Users". 
