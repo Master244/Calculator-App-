@@ -118,7 +118,7 @@ DictFiles
   Dutch.swift
    <li> loadDictionairy() // Is a Function hardcoded to load the dutch .lst file and first stores the words in a String before they get pushed for word in Entity Dutch </li>
   </ul>
-  </ul>
+  <ul>
   English.swift
     <li>loadDictionairy() // Is a Function hardcoded to load the English .lst file and first stores the words in a String before they get pushed for word in Entity Dutch</li>
   </ul>
@@ -126,6 +126,7 @@ DictFiles
   <ul>
   Game.swift
 <li>GameWon() // The game class gets a string and returns a boolean if a match is found to stop the game cycle. The game checks                  for valid input and checks if the current string made by the players is matching any word in the selected                      dictionairy.</li>
+</ul>
 
 
 
