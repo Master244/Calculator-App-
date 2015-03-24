@@ -1,30 +1,38 @@
-<h1>Ghost Word IOS Game Design Document<h1> 
+<h3>PlayCheckController</h3>
+This is the initial controller fired up at the start. The Play button checks if the game has been set from the settings menu. If not a message will appear that will ask you to go to the settings controller and setup the game. 
 
-I started this project for the Stanford CS193P IOS Swift Course. The assignment is to build the game Ghost. 
+![Alt text](https://github.com/Master244/Calculator-App-/blob/master/doc/PlayCheckController.png?raw=true)
 
-Ghost is a written or spoken word game in which players take turns adding letters to a growing word fragment, trying not to be the one to complete a valid word. Each fragment must be the beginning of an actual word, and usually some minimum is set on the length of a word that counts, such as three or four letters. The player who completes a word loses the round and earns a "letter" (as in the basketball game horse), with players being eliminated when they have been given all five letters of the word "ghost".
+<h3>SettingsViewController</h3>
+<p>1.</p>
+This is where a big part of the magic happens. First of all the managedObjectContext is declared to create a context where objects like users and the selected dictionairy can be neatly arranged for our Indian Trader to pick up. 
 
-<h2>Features:</h2>
-- 2 Player mode
-- High Scores
-- Create accounts
-- English and Dutch dictionary 
+<p>2.</p>
+This function checks if the fields are properly filled before it undertakes any action like checking any data. If all constraints are met the function will push the names from the TextFields to the Database configured for the Entity "Users". 
 
-<h2>Internal frameworks, libraries, or other technologies:</h2>
-- UIKit
+<p>3.</p>
+Loads and sets the currenDictionairy to English. 
+The function is hardcoded on the number of objects in the dictionairy file I used. If you want to reuse this code change that value to your needs. After loading the dictionairy the function then stores a value to set the CurrentDictionairy which allows our play button in the first view to continiue to the GameViewController.
 
-<h2>Patterns:</h2>
-- Settings
-- Help (Rules)
-- Compatibility
+<p>4.</p>
+Loads and sets the currenDictionairy to Dutch. 
+
+![Alt text](https://github.com/Master244/Calculator-App-/blob/master/doc/SettingsViewController.png?raw=true)
 
 
-Iphone 4/4S Design
-Designing for iOS
-The designs can be found in the doc directory
+<p>GameController</p>
+<p>1.</p>
+Pushes the input from the TextField to the database if it conforms to a couple of conditions. The checkMaxLength functions checks if only 1 character is given. And the CheckInput Class in Game checks if the input conforms to one of the cases specified.
 
-![Alt text](https://github.com/Master244/Calculator-App-/blob/master/doc/0.jpg?raw=true)
-![Alt text](https://github.com/Master244/Calculator-App-/blob/master/doc/1.jpg?raw=true)
-![Alt text](https://github.com/Master244/Calculator-App-/blob/master/doc/2.jpg?raw=true)
-![Alt text](https://github.com/Master244/Calculator-App-/blob/master/doc/3.jpg?raw=true)
-![Alt text](https://github.com/Master244/Calculator-App-/blob/master/doc/4.jpg?raw=true)
+<p>2.</p>
+Makes sure that the current string variable is only updated after the viewdidload() which means you first want to have your functions executed before you want to update the currentString in the view. Only then are you sure that it passed all your conditions. 
+
+<p>3.<p>
+Sets an image from the image library as background for the ViewController.
+
+<p>4.<p>
+An Override function that hides the keyboard when a touch is recorded outside of the TextField.
+
+![Alt text](https://github.com/Master244/Calculator-App-/blob/master/doc/GameController.png?raw=true)
+
+
