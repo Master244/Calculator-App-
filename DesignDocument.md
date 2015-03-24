@@ -101,20 +101,31 @@ Restart the match with the same settings.
 ![Alt text](https://github.com/Master244/Calculator-App-/blob/master/doc/HighScoreTableViewController.png?raw=true)
 
 <h2>Classes List with description</h2>
+
 userFiles
+  <ul>
   Users.swift
-    createUser //creates a user in Entity Users where the UITextField is the new value to be stored and then returns a newUser.     save // Gives our Indian Trader a go to deliver all packages. Everything has been wrapped and alligned.
-    playerisTrue // Checks for a valid input to be stored as User.
-    checkUser // Check if the user already exists in CoreData
-    fetchUser // Used by checkUser to see if the name that has been given already exists.
-    fetchAll // 
+    <li>createUser //creates a user in Entity Users where the UITextField is the new value to be stored and then returns a newUser.</li>     
+    <li>save // Gives our Indian Trader a go to deliver all packages. Everything has been wrapped and alligned.</li>
+    <li>playerisTrue // Checks for a valid input to be stored as User.</li>
+    <li>checkUser // Check if the user already exists in CoreData</li>
+    <li>fetchUser // Used by checkUser to see if the name that has been given already exists.</li>
+    <li>fetchAll // </li>
+  </ul>
+  
 DictFiles
+  <ul>
   Dutch.swift
-    loadDictionairy() // Is a Function hardcoded to load the dutch .lst file and first stores the words in a String before they                         get pushed for word in Entity Dutch
+   <li> loadDictionairy() // Is a Function hardcoded to load the dutch .lst file and first stores the words in a String before they get pushed for word in Entity Dutch </li>
+  </ul>
+  </ul>
   English.swift
-    loadDictionairy() // Is a Function hardcoded to load the English .lst file and first stores the words in a String before they                        get pushed for word in Entity Dutch
+    <li>loadDictionairy() // Is a Function hardcoded to load the English .lst file and first stores the words in a String before they get pushed for word in Entity Dutch</li>
+  </ul>
+  
+  <ul>
   Game.swift
-    GameWon() // The game class gets a string and returns a boolean if a match is found to stop the game cycle. The game checks                  for valid input and checks if the current string made by the players is matching any word in the selected                      dictionairy.
+<li>GameWon() // The game class gets a string and returns a boolean if a match is found to stop the game cycle. The game checks                  for valid input and checks if the current string made by the players is matching any word in the selected                      dictionairy.</li>
 
 
 
