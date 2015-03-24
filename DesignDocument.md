@@ -3,22 +3,28 @@
 
 Ghost is a written or spoken word game in which players take turns adding letters to a growing word fragment, trying not to be the one to complete a valid word. Each fragment must be the beginning of an actual word, and usually some minimum is set on the length of a word that counts, such as three or four letters. The player who completes a word loses the round and earns a "letter" (as in the basketball game horse), with players being eliminated when they have been given all five letters of the word "ghost".</p>
 <h2>Features:</h2>
-- 2 Player mode
-- High Scores
-- Create accounts
-- English and Dutch dictionary 
+<ul>
+  <li>2 Player mode</li>
+  <li>High Scores</li>
+  <li>Create accounts</li>
+  <li>English and Dutch dictionary</li>
+</ul>
 
 <h2>Internal frameworks, libraries, or other technologies:</h2>
-- UIKit
-- AppDelegate(core functions)
-- Core Data
-- NSManagedObjectContext
+<ul>
+  <li>UIKit</li>
+  <li>AppDelegate(core functions)</li>
+  <li>Core Data</li>
+  <li>NSManagedObjectContext</li>
+</ul>
 
+<ul>
 <h2>Patterns:</h2>
-- Settings
-- Help (Rules)
-- Compatibility
-- UITableView
+  <li>Settings</li>
+  <li>Help (Rules)</li>
+  <li>Compatibility</li>
+  <li>UITableView</li>
+</ul>
 
 Iphone 4/4S Design
 Designing for iOS
