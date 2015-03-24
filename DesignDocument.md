@@ -39,7 +39,7 @@ He wants to deliver and pick-up goods but he misses the instructions to properly
 
 ![Alt text](https://github.com/Master244/Calculator-App-/blob/master/doc/NSM.png?raw=true)
 
-I choose to use the CoreData because it was offered in the app it's core functions. CoreData has a bit of a learning curve but the fun begins when you get that Trader to work for you as he able to. The advantage of using CoreData is that if your app crashes all the data is saved in the CoreData of the device used. No Data will be lost as what will happen if you use NSUserDefaults, which is a way to temporarily store data that can be manipulated by different classes and functions. This data obviously gets lost when the code is done running or if the app crashes. 
+I choose to use the CoreData because it was offered in the Xcodes core functions. CoreData has a bit of a learning curve but the fun begins when you get that Trader to work for you as hes able to. The advantage of using CoreData is that if your app crashes all the data is saved in the CoreData of the device used. No Data will be lost as what will happen if you use NSUserDefaults, which is a way to temporarily store data that can be manipulated by different classes and functions. This data obviously gets lost when the code is done running or if the app crashes. 
 
 
 <h2>ViewControllers</h2>
